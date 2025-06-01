@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1170x500.png?text=Hero+Image') no-repeat center center/cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.ingredients {
+    padding: 40px 100px;
+    background-color: #f2f2f2;
+}
+
+.ingredients-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background: #fffdf5;
+}
+
+.menu-column h4 {
+    margin-bottom: 15px;
+    color: #c59d5f;
+}
+
+.reviews {
+    background: url('https://via.placeholder.com/1170x300.png?text=Guest+Reviews') no-repeat center center/cover;
+    padding: 100px 100px;
+    color: white;
+    text-align: center;
+}
+
+.reviews-box {
+    background-color: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.reservation {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.reservation input, .reservation button {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
